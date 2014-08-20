@@ -10,6 +10,7 @@
 		47DE0057199C4120008E8D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DE0056199C4120008E8D1E /* Foundation.framework */; };
 		47DE005A199C4120008E8D1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DE0059199C4120008E8D1E /* main.m */; };
 		47DE005E199C4120008E8D1E /* RandomItems.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47DE005D199C4120008E8D1E /* RandomItems.1 */; };
+		47DE0066199C474D008E8D1E /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DE0065199C474D008E8D1E /* BNRItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		47DE0059199C4120008E8D1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47DE005C199C4120008E8D1E /* RandomItems-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomItems-Prefix.pch"; sourceTree = "<group>"; };
 		47DE005D199C4120008E8D1E /* RandomItems.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomItems.1; sourceTree = "<group>"; };
+		47DE0064199C474D008E8D1E /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		47DE0065199C474D008E8D1E /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				47DE0059199C4120008E8D1E /* main.m */,
+				47DE0064199C474D008E8D1E /* BNRItem.h */,
+				47DE0065199C474D008E8D1E /* BNRItem.m */,
 				47DE005D199C4120008E8D1E /* RandomItems.1 */,
 				47DE005B199C4120008E8D1E /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47DE005A199C4120008E8D1E /* main.m in Sources */,
+				47DE0066199C474D008E8D1E /* BNRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
